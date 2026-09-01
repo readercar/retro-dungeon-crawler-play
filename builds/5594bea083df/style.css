@@ -94,19 +94,6 @@ canvas {
   }
 }
 
-@media (min-width: 720px) and (min-aspect-ratio: 9/16) {
-  #GameDiv::before {
-    background-color: #07090a;
-    background-image:
-      linear-gradient(to right, rgba(7, 9, 10, 0.72), rgba(12, 16, 17, 0.18) 76%, rgba(19, 22, 22, 0.08)),
-      url("ambient-frame-overlay-v1.png"),
-      linear-gradient(to right, #07090a 0%, #0c1011 76%, #131616 100%);
-    background-position: center, right center, center;
-    background-size: 100% 100%, auto 100%, 100% 100%;
-    background-repeat: no-repeat;
-  }
-}
-
 @media (max-aspect-ratio: 9/16) {
   #GameDiv::before,
   #GameDiv::after {
