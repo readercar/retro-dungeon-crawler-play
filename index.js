@@ -1,4 +1,4 @@
-System.register(["./application.js?v=a82212d8a237"], function (_export, _context) {
+System.register(["./application.js?v=edd4f5d2b4c3"], function (_export, _context) {
   "use strict";
 
   var Application, canvas, $p, bcr, application;
