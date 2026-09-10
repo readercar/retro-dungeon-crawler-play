@@ -39,7 +39,7 @@
           if (!response.ok) throw new Error('latest build lookup failed');
           return response.json();
         })
-        .then(({ build }) => {
+        .then(({ volumeBuild: build }) => {
           const safeBuild = typeof build === 'string' && /^[a-f0-9]{12}$/.test(build)
             ? build
             : fallbackBuild;
